@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite" verbose="1">
+    <test name="User API E2E Tests">
+        <classes>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.GetUserTest"/>
+            <class name="tests.UpdateUserTest"/>
+            <class name="tests.DeleteUserTest"/>
+        </classes>
+    </test>
+</suite>

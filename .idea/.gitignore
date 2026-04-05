@@ -1,10 +1,17 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# IntelliJ
+.idea/
+*.iml
+
+# Maven / Gradle build
+target/
+*.class
+
+# Logs
+*.log
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Local environment
+*.env
